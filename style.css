@@ -3,15 +3,13 @@
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .cabecalho-imagem {
     width: 20%;
 }
-.cabecalho-lista{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
 }
